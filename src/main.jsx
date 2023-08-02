@@ -1,14 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
-export function App() {
-  return (
-    <div>
-      <h1>Hello Word!</h1>
-    </div>
-
-  );
-}
+import App from './app'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
